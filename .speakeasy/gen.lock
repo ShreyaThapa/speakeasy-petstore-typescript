@@ -3,15 +3,18 @@ id: 05318947-4f55-4cb1-a49a-3801e79719ac
 management:
   docChecksum: 03e3387365ae18c7ce07d32543a62956
   docVersion: 1.0.0
-  speakeasyVersion: 1.396.8
-  generationVersion: 2.415.6
-  releaseVersion: 0.0.1
-  configChecksum: 15a4f5d5960dd095a92ce4a7812d6c74
+  speakeasyVersion: 1.396.9
+  generationVersion: 2.415.7
+  releaseVersion: 0.0.2
+  configChecksum: 70650ea6c90293d1c8ed419650c15707
+  repoURL: https://github.com/ShreyaThapa/speakeasy-petstore-typescript.git
+  installationURL: https://github.com/ShreyaThapa/speakeasy-petstore-typescript
+  published: true
 features:
   typescript:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.1.11
-    core: 3.17.2
+    core: 3.17.3
     defaultEnabledRetries: 0.1.0
     devContainers: 2.90.0
     enumUnions: 0.1.0
