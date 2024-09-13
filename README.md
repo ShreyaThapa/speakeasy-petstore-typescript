@@ -17,6 +17,7 @@ It has been generated successfully based on your OpenAPI spec. However, it is no
 - [ ] ♻️ Refine your SDK quickly by iterating locally with the [Speakeasy CLI](https://github.com/speakeasy-api/speakeasy)
 - [ ] 🎁 Publish your SDK to package managers by [configuring automatic publishing](https://www.speakeasy.com/docs/advanced-setup/publish-sdks)
 - [ ] ✨ When ready to productionize, delete this section from the README
+- [ ] ✨ Published - https://www.npmjs.com/package/shreya-petstore
 
 <!-- Start Summary [summary] -->
 ## Summary
