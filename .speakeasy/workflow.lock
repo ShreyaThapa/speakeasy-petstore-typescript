@@ -1,0 +1,26 @@
+speakeasyVersion: 1.396.8
+sources:
+    petstore-oas:
+        sourceNamespace: petstore-oas
+        sourceRevisionDigest: sha256:0346692a5ade5ff9e5e4b7e003296be49db6b5b00eb6dd93a75cf1f1ae75ce9a
+        sourceBlobDigest: sha256:ca0bafeba37c29aa545bc2e0111d8b1f555b8f4b9313e56b6e00036192f6af7e
+        tags:
+            - latest
+targets:
+    petstore:
+        source: petstore-oas
+        sourceNamespace: petstore-oas
+        sourceRevisionDigest: sha256:0346692a5ade5ff9e5e4b7e003296be49db6b5b00eb6dd93a75cf1f1ae75ce9a
+        sourceBlobDigest: sha256:ca0bafeba37c29aa545bc2e0111d8b1f555b8f4b9313e56b6e00036192f6af7e
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        petstore-oas:
+            inputs:
+                - location: openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/dwolla/dwolla/petstore-oas
+    targets:
+        petstore:
+            target: typescript
+            source: petstore-oas

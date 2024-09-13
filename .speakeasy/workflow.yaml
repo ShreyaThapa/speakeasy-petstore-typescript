@@ -1,0 +1,11 @@
+workflowVersion: 1.0.0
+sources:
+    petstore-oas:
+        inputs:
+            - location: openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/dwolla/dwolla/petstore-oas
+targets:
+    petstore:
+        target: typescript
+        source: petstore-oas
