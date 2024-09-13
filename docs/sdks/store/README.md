@@ -22,7 +22,7 @@ Returns a map of status codes to quantities
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -43,8 +43,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { storeGetInventory } from "petstore/funcs/storeGetInventory.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { storeGetInventory } from "shreya-petstore/funcs/storeGetInventory.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -96,7 +96,7 @@ Place a new order in the store
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -122,8 +122,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { storePlaceOrder } from "petstore/funcs/storePlaceOrder.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { storePlaceOrder } from "shreya-petstore/funcs/storePlaceOrder.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -181,7 +181,7 @@ For valid response try integer IDs with value <= 5 or > 10. Other values will ge
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -204,8 +204,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { storeGetOrderById } from "petstore/funcs/storeGetOrderById.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { storeGetOrderById } from "shreya-petstore/funcs/storeGetOrderById.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -261,7 +261,7 @@ For valid response try integer IDs with value < 1000. Anything above 1000 or non
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -284,8 +284,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { storeDeleteOrder } from "petstore/funcs/storeDeleteOrder.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { storeDeleteOrder } from "shreya-petstore/funcs/storeDeleteOrder.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

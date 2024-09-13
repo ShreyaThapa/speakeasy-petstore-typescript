@@ -10,7 +10,7 @@ mkdir samples
 npm install
 npm install -g ts-node
 npm link
-npm link petstore
+npm link shreya-petstore
 TS_CONFIG_CONTENT=$(cat <<EOL
 {
   "compilerOptions": {

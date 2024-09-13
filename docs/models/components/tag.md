@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Tag } from "petstore/models/components";
+import { Tag } from "shreya-petstore/models/components";
 
 let value: Tag = {};
 ```
