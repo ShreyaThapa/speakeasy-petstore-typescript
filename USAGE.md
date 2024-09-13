@@ -1,6 +1,6 @@
 <!-- Start SDK Example Usage [usage] -->
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",

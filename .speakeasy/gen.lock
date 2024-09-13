@@ -5,8 +5,8 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.396.9
   generationVersion: 2.415.7
-  releaseVersion: 0.0.2
-  configChecksum: 70650ea6c90293d1c8ed419650c15707
+  releaseVersion: 0.0.3
+  configChecksum: 2d970458256f43951411f0097c021292
   repoURL: https://github.com/ShreyaThapa/speakeasy-petstore-typescript.git
   installationURL: https://github.com/ShreyaThapa/speakeasy-petstore-typescript
   published: true

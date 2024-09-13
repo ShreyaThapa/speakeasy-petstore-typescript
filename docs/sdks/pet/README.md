@@ -25,7 +25,7 @@ Update an existing pet by Id
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -56,8 +56,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petUpdatePet } from "petstore/funcs/petUpdatePet.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petUpdatePet } from "shreya-petstore/funcs/petUpdatePet.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -121,7 +121,7 @@ Add a new pet to the store
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -152,8 +152,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petAddPet } from "petstore/funcs/petAddPet.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petAddPet } from "shreya-petstore/funcs/petAddPet.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -214,7 +214,7 @@ Multiple status values can be provided with comma separated strings
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -235,8 +235,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petFindPetsByStatus } from "petstore/funcs/petFindPetsByStatus.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petFindPetsByStatus } from "shreya-petstore/funcs/petFindPetsByStatus.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -290,7 +290,7 @@ Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -311,8 +311,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petFindPetsByTags } from "petstore/funcs/petFindPetsByTags.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petFindPetsByTags } from "shreya-petstore/funcs/petFindPetsByTags.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -366,7 +366,7 @@ Returns a single pet
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -389,8 +389,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petGetPetById } from "petstore/funcs/petGetPetById.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petGetPetById } from "shreya-petstore/funcs/petGetPetById.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -446,7 +446,7 @@ Deletes a pet
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -469,8 +469,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petDeletePet } from "petstore/funcs/petDeletePet.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petDeletePet } from "shreya-petstore/funcs/petDeletePet.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -526,7 +526,7 @@ uploads an image
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -549,8 +549,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { petUploadFile } from "petstore/funcs/petUploadFile.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { petUploadFile } from "shreya-petstore/funcs/petUploadFile.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

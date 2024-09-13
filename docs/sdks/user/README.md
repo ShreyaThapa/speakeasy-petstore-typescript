@@ -22,7 +22,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -52,8 +52,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userCreateUser } from "petstore/funcs/userCreateUser.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userCreateUser } from "shreya-petstore/funcs/userCreateUser.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -113,7 +113,7 @@ Creates list of users with given input array
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -145,8 +145,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userCreateUsersWithListInput } from "petstore/funcs/userCreateUsersWithListInput.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userCreateUsersWithListInput } from "shreya-petstore/funcs/userCreateUsersWithListInput.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -208,7 +208,7 @@ Logs user into the system
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -229,8 +229,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userLoginUser } from "petstore/funcs/userLoginUser.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userLoginUser } from "shreya-petstore/funcs/userLoginUser.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -284,7 +284,7 @@ Logs out current logged in user session
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -302,8 +302,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userLogoutUser } from "petstore/funcs/userLogoutUser.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userLogoutUser } from "shreya-petstore/funcs/userLogoutUser.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -352,7 +352,7 @@ Get user by user name
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -375,8 +375,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userGetUserByName } from "petstore/funcs/userGetUserByName.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userGetUserByName } from "shreya-petstore/funcs/userGetUserByName.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -432,7 +432,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -462,8 +462,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userUpdateUser } from "petstore/funcs/userUpdateUser.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userUpdateUser } from "shreya-petstore/funcs/userUpdateUser.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -525,7 +525,7 @@ This can only be done by the logged in user.
 ### Example Usage
 
 ```typescript
-import { Petstore } from "petstore";
+import { Petstore } from "shreya-petstore";
 
 const petstore = new Petstore({
   apiKey: process.env["PETSTORE_API_KEY"] ?? "",
@@ -548,8 +548,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { PetstoreCore } from "petstore/core.js";
-import { userDeleteUser } from "petstore/funcs/userDeleteUser.js";
+import { PetstoreCore } from "shreya-petstore/core.js";
+import { userDeleteUser } from "shreya-petstore/funcs/userDeleteUser.js";
 
 // Use `PetstoreCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

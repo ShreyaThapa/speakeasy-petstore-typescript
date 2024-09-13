@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { DeleteOrderRequest } from "petstore/models/operations";
+import { DeleteOrderRequest } from "shreya-petstore/models/operations";
 
 let value: DeleteOrderRequest = {
   orderId: 857946,
