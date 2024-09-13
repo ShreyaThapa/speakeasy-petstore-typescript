@@ -14,12 +14,7 @@ export type UploadFileRequest = {
    * Additional Metadata
    */
   additionalMetadata?: string | undefined;
-  requestBody?:
-    | ReadableStream<Uint8Array>
-    | Blob
-    | ArrayBuffer
-    | Buffer
-    | undefined;
+  requestBody?: ReadableStream<Uint8Array> | Blob | ArrayBuffer | undefined;
 };
 
 /** @internal */
@@ -34,7 +29,6 @@ export const UploadFileRequest$inboundSchema: z.ZodType<
     z.instanceof(ReadableStream<Uint8Array>),
     z.instanceof(Blob),
     z.instanceof(ArrayBuffer),
-    z.instanceof(Buffer),
   ]).optional(),
 }).transform((v) => {
   return remap$(v, {
@@ -46,12 +40,7 @@ export const UploadFileRequest$inboundSchema: z.ZodType<
 export type UploadFileRequest$Outbound = {
   petId: number;
   additionalMetadata?: string | undefined;
-  RequestBody?:
-    | ReadableStream<Uint8Array>
-    | Blob
-    | ArrayBuffer
-    | Buffer
-    | undefined;
+  RequestBody?: ReadableStream<Uint8Array> | Blob | ArrayBuffer | undefined;
 };
 
 /** @internal */
@@ -66,7 +55,6 @@ export const UploadFileRequest$outboundSchema: z.ZodType<
     z.instanceof(ReadableStream<Uint8Array>),
     z.instanceof(Blob),
     z.instanceof(ArrayBuffer),
-    z.instanceof(Buffer),
   ]).optional(),
 }).transform((v) => {
   return remap$(v, {
